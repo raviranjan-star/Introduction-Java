@@ -14,6 +14,7 @@ public class OddAndEvenNumber {
 		{
 			System.out.println("Odd Number");
 		}
+		s.close();
 	}
 
 }

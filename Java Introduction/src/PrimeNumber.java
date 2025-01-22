@@ -23,6 +23,7 @@ public class PrimeNumber {
 		{
 			System.out.println("Ordinary/Non prime Number");
 		}
+		s.close();
 		
 	}
 
