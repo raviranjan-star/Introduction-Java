@@ -1,3 +1,4 @@
+package simpleCoding;
 
 public class PrintHelloWord {
 

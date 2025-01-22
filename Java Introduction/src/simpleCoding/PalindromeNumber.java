@@ -1,10 +1,12 @@
+package simpleCoding;
 import java.util.Scanner;
-public class ReverseNumber {
+
+public class PalindromeNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s=new Scanner(System.in);
-		System.out.println("Enter the Number : ");
+		System.out.print("Enter the Number : ");
 		int x=s.nextInt(),temp=x,rem,rev=0;
 		while(temp>0)
 		{
@@ -12,7 +14,15 @@ public class ReverseNumber {
 			rev=rev*10+rem;
 			temp=temp/10;
 		}
-		System.out.print("Reverse Number is : "+rev);
+		if(x==rev)
+		{
+			System.out.print("Palindrome Number ");
+		}
+		else
+		{
+			System.out.print("Not a Palindrome Number ");
+		}
+		
 		s.close();
 	}
 

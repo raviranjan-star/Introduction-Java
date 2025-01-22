@@ -1,18 +1,15 @@
+package simpleCoding;
 import java.util.Scanner;
-public class OddAndEvenNumber {
+public class PrintTable {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s=new Scanner(System.in);
-		System.out.print("Enter the Number : ");
+		System.out.println("Enter the Number : ");
 		int x=s.nextInt();
-		if(x%2==0)
+		for(int i=1;i<=12;i++)
 		{
-			System.out.println("Even Number");
-		}
-		else
-		{
-			System.out.println("Odd Number");
+			System.out.println(x+" * "+i+" = "+(x*i));
 		}
 		s.close();
 	}

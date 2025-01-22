@@ -1,19 +1,19 @@
+package simpleCoding;
 import java.util.Scanner;
-public class LeapYear {
+public class OddAndEvenNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s=new Scanner(System.in);
-		System.out.print("Enter the Year :" );
+		System.out.print("Enter the Number : ");
 		int x=s.nextInt();
-		System.out.println(x);
-		if((x%400==0) || (x%4==0 && x%100 !=0))
+		if(x%2==0)
 		{
-			System.out.println("Leap Year");
+			System.out.println("Even Number");
 		}
 		else
 		{
-			System.out.println("Ordinary Year");
+			System.out.println("Odd Number");
 		}
 		s.close();
 	}
