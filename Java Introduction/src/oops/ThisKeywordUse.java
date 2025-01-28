@@ -11,7 +11,7 @@ To pass the current object as a parameter to a constructor.
 To access the outer class instance from an inner class.
  */
 
-package Oops;
+package oops;
 
 public class ThisKeywordUse {
 	String name;

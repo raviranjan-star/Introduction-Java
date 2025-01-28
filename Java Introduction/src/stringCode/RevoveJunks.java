@@ -1,4 +1,4 @@
-package String;
+package stringCode;
 
 public class RevoveJunks {
 

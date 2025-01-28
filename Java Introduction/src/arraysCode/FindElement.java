@@ -1,4 +1,4 @@
-package ArraysCode;
+package arraysCode;
 
 public class FindElement {
 

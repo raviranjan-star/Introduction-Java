@@ -1,4 +1,4 @@
-package String;
+package stringCode;
 import java.util.Scanner;
 public class MaxOccurCharacter {
 

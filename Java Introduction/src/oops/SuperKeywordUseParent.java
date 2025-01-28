@@ -1,4 +1,4 @@
-package Oops;
+package oops;
 
 public class SuperKeywordUseParent {
 	String name="Ravi Ranjan";
